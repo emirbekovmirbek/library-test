@@ -1,0 +1,17 @@
+.wish-list {
+  margin: 3rem 0;
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 17rem);
+    grid-gap: 2rem;
+  }
+
+  &__information {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 100%;
+  }
+}

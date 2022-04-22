@@ -1,0 +1,42 @@
+.input {
+  position: relative;
+
+  &__label {
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+
+  }
+
+  &__input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid #8e8a8a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    min-height: 2rem;
+
+    &:focus {
+      border-bottom: 0.1rem solid #47c467;
+    }
+  }
+
+  &__error {
+    color: #b60909;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+}
+
+.active {
+  transform: translateY(-1rem);
+  font-size: 0.8rem;
+  color: #47c467;
+}

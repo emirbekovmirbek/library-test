@@ -1,0 +1,12 @@
+.list__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 17rem);
+  grid-gap: 2rem;
+}
+.list__info {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4rem;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+.form-add {
+  &__title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__field {
+    margin: 1.5rem 0;
+  }
+
+  &__action {
+    background: blue;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid transparent;
+    transition: all 0.3s;
+    &:hover {
+      border: 0.2rem solid #47c467;
+    }
+    &:active {
+      transform: scale(0.8);
+    }
+  }
+}
